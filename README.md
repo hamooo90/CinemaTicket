@@ -1,6 +1,6 @@
 # CinemaTicket
  Cinema ticket booking application written in java and using JavaFx for user interface.
- this application uses sqlite database to store booked ticket and user authentication
+ this application uses sqlite database to store booked ticket data and user authentication.
  
 ## Screenshot
 
