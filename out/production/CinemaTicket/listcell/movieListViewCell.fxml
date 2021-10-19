@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<HBox fx:id="hbox" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefWidth="130.0">
+         <children>
+            <Label fx:id="movie" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="5.0" top="10.0" />
+         </HBox.margin>
+      </Pane>
+      <Pane prefWidth="130.0">
+         <children>
+            <Label fx:id="cinema" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="5.0" top="10.0" />
+         </HBox.margin>
+      </Pane>
+      <Pane prefWidth="130.0">
+         <children>
+            <Label fx:id="hall" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="5.0" top="10.0" />
+         </HBox.margin>
+      </Pane>
+      <Pane prefWidth="130.0">
+         <children>
+            <Label fx:id="time" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="5.0" top="10.0" />
+         </HBox.margin>
+      </Pane>
+      <Pane layoutX="481.0" layoutY="20.0" prefWidth="130.0">
+         <children>
+            <Label fx:id="seats" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="5.0" top="10.0" />
+         </HBox.margin>
+      </Pane>
+   </children>
+</HBox>

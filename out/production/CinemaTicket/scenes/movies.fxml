@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.Movies">
+   <children>
+      <HBox alignment="CENTER_LEFT" style="-fx-background-color: #794d94;">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#goBack" stylesheets="@../css/style.css" text="Back" textFill="WHITE" />
+            <Label text="Select Movie" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="10.0" top="20.0" />
+         </padding>
+      </HBox>
+      <ListView fx:id="moviesListView" onMouseClicked="#handleMouseClickOnList" prefHeight="475.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </ListView>
+   </children>
+</VBox>

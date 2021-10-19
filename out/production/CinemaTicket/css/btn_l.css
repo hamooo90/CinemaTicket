@@ -1,0 +1,15 @@
+.button{
+    -fx-background-color: #875aa3;
+    -fx-background-radius: 10px;
+
+    -fx-font-color: #ffffff;
+
+}
+
+.button:hover{
+    -fx-background-color: #72498c;
+}
+.button::active {
+    position:relative;
+    top:1px;
+}

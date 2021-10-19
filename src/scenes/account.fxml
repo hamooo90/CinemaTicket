@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.Account">
+   <children>
+      <HBox alignment="CENTER_LEFT" style="-fx-background-color: #794d94;">
+         <children>
+            <Label text="Tickets History" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" left="10.0" top="20.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="hbox" style="-fx-background-color: #ffffff;">
+         <children>
+            <Pane prefWidth="130.0">
+               <children>
+                  <Label text="Movie Name" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane prefWidth="130.0">
+               <children>
+                  <Label text="Cinema Name" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane prefWidth="130.0">
+               <children>
+                  <Label text="Hall" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane prefWidth="130.0">
+               <children>
+                  <Label text="Time" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane layoutX="481.0" layoutY="20.0" prefWidth="130.0">
+               <children>
+                  <Label text="Seats" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <ListView fx:id="historyList" prefHeight="475.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </ListView>
+   </children>
+</VBox>

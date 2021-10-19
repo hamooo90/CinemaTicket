@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="tCell" prefWidth="127.0" style="-fx-background-color: #794d94; -fx-background-radius: 10pt;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="vbox" style="-fx-background-color: transparent;">
+         <children>
+            <Label text="Hall Name:" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="hallName" text="Newu Fox" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="25.0" right="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label text="Time:" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="time" text="17:00" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</Pane>
